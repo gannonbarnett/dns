@@ -18,4 +18,4 @@ Design notes:
 Decisions:
  - Pre-allocate space for every query ID.. Given max DNS message size of 512 bytes,
    this theoretically could be 65536 * 512 bytes = 32MB of RAM... That's a lot. But we
-   clean up the memory after requests.
+   clean up the memory after requests?
