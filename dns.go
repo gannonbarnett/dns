@@ -15,6 +15,7 @@ Design notes:
   - DNS ID collisions could be bad? Could solve by adding client addr to key.
   - Handle custom resolving functions?
   - Nameservers should be configurable.
+  - Could try to optimize requests in flight, but optimizing the cache might be a better solution.
 
 - Cache:
   - Need to expire cache entries.
